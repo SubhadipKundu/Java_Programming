@@ -1,6 +1,8 @@
 package application;
 
+import challenge.FirstOccurrence;
 import challenge.LongestSubString;
+import challenge.SearchInsertPosition;
 import datastructures.LinkedListOperaions;
 import datastructures.MergeSortedLists;
 import datastructures.StackArrayOperations;
@@ -96,6 +98,16 @@ public class Application {
 //		System.out.println();
 //		
 //		new BubbleSort().executeBubbleSort();
+//		
+//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
+//		System.out.println();
+//		
+//		new SearchInsertPosition().executeSearchInsertPosition();
+//		
+//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
+//		System.out.println();
+//		
+		new FirstOccurrence().executeFirstOccurrence();
 		
 		
 	}
