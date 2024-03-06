@@ -2,7 +2,9 @@ package application;
 
 import challenge.FirstOccurrence;
 import challenge.LongestSubString;
+import challenge.RemoveDuplicates;
 import challenge.SearchInsertPosition;
+import challenge.ValidParentheses;
 import datastructures.LinkedListOperaions;
 import datastructures.MergeSortedLists;
 import datastructures.StackArrayOperations;
@@ -107,8 +109,17 @@ public class Application {
 //		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
 //		System.out.println();
 //		
-		new FirstOccurrence().executeFirstOccurrence();
-		
+//		new FirstOccurrence().executeFirstOccurrence();
+//		
+//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
+//		System.out.println();
+//		
+//		new ValidParentheses().executeValidParantheses();
+//		
+//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
+//		System.out.println();
+//		
+		new RemoveDuplicates().executeRemoveDuplicates();
 		
 	}
 
