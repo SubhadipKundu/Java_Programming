@@ -1,4 +1,4 @@
-package challenge;
+package core;
 
 import getdata.ArrayInteger;
 
