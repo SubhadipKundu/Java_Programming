@@ -1,19 +1,5 @@
 package application;
 
-import challenge.FirstOccurrence;
-import challenge.LongestSubString;
-import challenge.RemoveDuplicates;
-import challenge.SearchInsertPosition;
-import challenge.ValidParentheses;
-import datastructures.LinkedListOperaions;
-import datastructures.MergeSortedLists;
-import datastructures.StackArrayOperations;
-import datastructures.StackLinkedListOperations;
-import datastructures.TreeOperations;
-import sorting.BubbleSort;
-import sorting.InsertionSort;
-import sorting.SelectionSort;
-
 public class Application {
 
 	public static void main(String[] args) {
@@ -119,7 +105,12 @@ public class Application {
 //		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
 //		System.out.println();
 //		
-		new RemoveDuplicates().executeRemoveDuplicates();
+//		new RemoveDuplicates().executeRemoveDuplicates();
+//		
+//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
+//		System.out.println();
+//		
+		
 		
 	}
 
