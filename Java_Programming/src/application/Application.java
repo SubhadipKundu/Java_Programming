@@ -4,6 +4,8 @@ import java.util.Random;
 
 import generatedata.ArrayInteger;
 import searching.BinarySearch;
+import searching.JumpSearch;
+import searching.LinearSearch;
 
 public class Application {
 
@@ -16,7 +18,7 @@ public class Application {
 			arr = new ArrayInteger().getArr();
 		} while(arr.length == 0);
 		
-		System.out.println(new BinarySearch().executeBinarySearch(arr, new Random().nextInt(100)));
+		System.out.println(new JumpSearch().executeJumpSearch(arr, new Random().nextInt(100)));
 		
 	}
 
