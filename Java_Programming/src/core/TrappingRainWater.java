@@ -1,6 +1,6 @@
 package core;
 
-import getdata.ArrayInteger;
+import generatedata.ArrayInteger;
 
 public class TrappingRainWater {
 	

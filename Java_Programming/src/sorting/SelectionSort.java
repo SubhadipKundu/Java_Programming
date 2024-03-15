@@ -1,15 +1,10 @@
 package sorting;
 
-import getdata.ArrayInteger;
-
 public class SelectionSort {
 	
-	private ArrayInteger arrayInteger = new ArrayInteger();
-	
-	private int[] arr = arrayInteger.getArr();
-	private int length = arr.length;
-	
-	public void executeSelectionSort() {
+	public int[] executeSelectionSort(int[] arr) {
+		
+		int length = arr.length;
 		
 		for (int i = 0; i < length - 1; i++) {
 			int minimum = i;
@@ -26,7 +21,7 @@ public class SelectionSort {
 			}
 		}
 		
-		new PrintSortedArray().executePrintSortedArray(arr);
+		return arr;
 		
 	}
 	

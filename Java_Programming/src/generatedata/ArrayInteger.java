@@ -1,4 +1,4 @@
-package getdata;
+package generatedata;
 
 import java.util.Random;
 
@@ -73,17 +73,22 @@ public class ArrayInteger {
 			return;
 		}
 		
-		System.out.println("Array of size : " + length);
-		System.out.print("Elements of Array : ");
-		System.out.print("[");
+		System.out.println("Array Size : " + length);
+		System.out.println();
 		
-		for (int i = 0; i < length - 1; i ++) {
-			System.out.print(arr[i] + ", ");
-			
+		StringBuilder stringBuilder = new StringBuilder();
+		
+		stringBuilder.append("Array Elements : [");
+		
+		for (int i : arr) {
+			stringBuilder.append(i);
+			stringBuilder.append(", ");
 		}
 		
-		System.out.print(arr[length - 1] + "]");
-		System.out.println();
+		stringBuilder.delete(stringBuilder.length() - 2, stringBuilder.length());
+		stringBuilder.append(']');
+		
+		System.out.println(stringBuilder);
 		
 	}
 	

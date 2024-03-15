@@ -1,44 +1,30 @@
 package sorting;
 
-import getdata.ArrayInteger;
-
 public class MergeSort {
-	
-	private int arr[] = new ArrayInteger().getArr();
-	private int length = arr.length;
-	
-	public void executeMergeSort() {
+
+	public int[] executeMergeSort(int[] arr) {
 		
-		if (length == 0 ) {
-			System.out.println("Array size is 0. No elements to sort.");
-			return;
-		}
+		sort(arr, 0, arr.length - 1);
 		
-		System.out.println();
-		
-		sort(0, length - 1);
-		
-		new PrintSortedArray().executePrintSortedArray(arr);
-		
-		System.out.println();
+		return arr; 
 		
 	}
 	
-	private void sort(int start, int end) {
+	private void sort(int[] arr, int start, int end) {
 		
 		if (start < end) {
 			
 			int mid = (start + end) / 2;
 			
-			sort(start, mid);
-			sort(mid + 1, end);
+			sort(arr, start, mid);
+			sort(arr, mid + 1, end);
 			
-			merge(start, mid, end);
+			merge(arr, start, mid, end);
 		}
 		
 	}
 
-	private void merge(int start, int mid, int end) {
+	private void merge(int[] arr, int start, int mid, int end) {
 		
 		int left = mid - start + 1;
 		int right = end - mid;
