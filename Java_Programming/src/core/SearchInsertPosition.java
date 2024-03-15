@@ -4,7 +4,7 @@ package core;
 
 import java.util.Random;
 
-import getdata.ArrayInteger;
+import generatedata.ArrayInteger;
 
 public class SearchInsertPosition {
 	

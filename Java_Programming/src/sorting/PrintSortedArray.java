@@ -4,18 +4,19 @@ public class PrintSortedArray {
 	
 	public void executePrintSortedArray(int[] arr) {
 		
-		int length = arr.length;
+		StringBuilder stringBuilder = new StringBuilder();
 		
-		System.out.print("Sorted Array : ");
-		System.out.print("[");
+		stringBuilder.append("Sorted Array : [");
 		
-		for (int i = 0; i < length - 1; i ++) {
-			System.out.print(arr[i] + ", ");
-			
+		for (int i : arr) {
+			stringBuilder.append(i);
+			stringBuilder.append(", ");
 		}
 		
-		System.out.print(arr[length - 1] + "]");
-		System.out.println();
+		stringBuilder.delete(stringBuilder.length() - 2, stringBuilder.length());
+		stringBuilder.append(']');
+		
+		System.out.println(stringBuilder);
 		
 	}
 	

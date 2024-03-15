@@ -1,18 +1,10 @@
 package sorting;
 
-import getdata.ArrayInteger;
-
 public class BubbleSort {
 	
-	private int[] arr = new ArrayInteger().getArr();
-	private int length = arr.length;
-	
-	public void executeBubbleSort() {
+	public int[] executeBubbleSort(int[] arr) {
 		
-		if (length == 0 ) {
-			System.out.println("Array size is 0. No elements to sort.");
-			return;
-		}
+		int length = arr.length;
 		
 		for (int i = 0; i < length - 1; i ++)
 			for (int j = 0; j < length - 1; j ++)
@@ -22,7 +14,7 @@ public class BubbleSort {
 					arr[j + 1] = temp;
 				}
 		
-		new PrintSortedArray().executePrintSortedArray(arr);
+		return arr;
 		
 	}
 	

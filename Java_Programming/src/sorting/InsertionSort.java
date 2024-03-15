@@ -1,18 +1,10 @@
 package sorting;
 
-import getdata.ArrayInteger;
-
 public class InsertionSort {
 	
-	private int[] arr = new ArrayInteger().getArr();
-	private int length = arr.length;
-	
-	public void executeInsertionSort() {
+	public int[] executeInsertionSort(int[] arr) {
 		
-		if (length == 0 ) {
-			System.out.println("Array size is 0. No elements to sort.");
-			return;
-		}
+		int length = arr.length;
 		
 		for (int i = 1; i < length; i ++) {
 			
@@ -28,7 +20,7 @@ public class InsertionSort {
 			
 		}
 		
-		new PrintSortedArray().executePrintSortedArray(arr);
+		return arr;
 		
 	}
 	

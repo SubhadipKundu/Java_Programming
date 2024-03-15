@@ -3,7 +3,7 @@ package core;
 import java.util.HashSet;
 import java.util.Random;
 
-import getdata.ArrayInteger;
+import generatedata.ArrayInteger;
 
 public class SumPair {
 	

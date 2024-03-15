@@ -21,7 +21,7 @@
 
 package core;
 
-import getdata.ArrayInteger;
+import generatedata.ArrayInteger;
 import sorting.PrintSortedArray;
 
 public class RemoveDuplicates {

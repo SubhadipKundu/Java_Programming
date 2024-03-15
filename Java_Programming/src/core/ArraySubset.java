@@ -3,7 +3,7 @@ package core;
 import java.util.HashMap;
 import java.util.Map;
 
-import getdata.ArrayInteger;
+import generatedata.ArrayInteger;
 
 public class ArraySubset {
 	

@@ -1,116 +1,22 @@
 package application;
 
+import java.util.Random;
+
+import generatedata.ArrayInteger;
+import searching.BinarySearch;
+
 public class Application {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		new MergeSort().executeMergeSort();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new SumPair().executeSumPair();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new BooleanParenthesization().executeBooleanParenthesization();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new ArraySubset().executeArraySubset();
-//
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new DuplicateElements().executeDuplicateElements();
-//
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new ArrayLeader().executeArrayLeader();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new TrappingRainWater().executeTrappingRainWater();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new LinkedListOperaions().executeLinkedListOperaions();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new SelectionSort().executeSelectionSort();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new StackArrayOperations().executeStackArrayOperations();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new StackLinkedListOperations().executeStackLinkedListOperations();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new MergeSortedLists().executeMergeSortedLists();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new TreeOperations().executeTreeOperations();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new MergeSortedLists().executeMergeSortedLists();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new LongestSubString().executeLongestSubString();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new InsertionSort().executeInsertionSort();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new BubbleSort().executeBubbleSort();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new SearchInsertPosition().executeSearchInsertPosition();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new FirstOccurrence().executeFirstOccurrence();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new ValidParentheses().executeValidParantheses();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
-//		new RemoveDuplicates().executeRemoveDuplicates();
-//		
-//		System.out.println("*****-----*****-----*****-----#####-----#####-----*****-----*****-----*****");
-//		System.out.println();
-//		
+		int[] arr;
 		
+		do {
+			arr = new ArrayInteger().getArr();
+		} while(arr.length == 0);
+		
+		System.out.println(new BinarySearch().executeBinarySearch(arr, new Random().nextInt(100)));
 		
 	}
 
