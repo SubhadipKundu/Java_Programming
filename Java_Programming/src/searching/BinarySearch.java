@@ -13,6 +13,9 @@ public class BinarySearch {
 	
 	private int search(int[] arr, int start, int end, int target) {
 		
+		System.out.println("Target Element : " + target);
+		System.out.println();
+		
 		if (start > end)
 			return -1;
 		
