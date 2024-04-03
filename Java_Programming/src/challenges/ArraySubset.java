@@ -1,4 +1,4 @@
-package challenge;
+package challenges;
 
 import java.util.HashMap;
 import java.util.Map;

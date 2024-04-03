@@ -1,4 +1,4 @@
-package challenge;
+package challenges;
 
 import generatedata.ArrayInteger;
 

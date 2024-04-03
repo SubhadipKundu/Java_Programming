@@ -1,4 +1,4 @@
-package challenge;
+package challenges;
 
 import java.util.HashSet;
 import java.util.Random;
