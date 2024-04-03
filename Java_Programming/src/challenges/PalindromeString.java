@@ -1,4 +1,4 @@
-package challenge;
+package challenges;
 
 public class PalindromeString {
 	

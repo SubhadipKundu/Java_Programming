@@ -1,6 +1,6 @@
 //To find the longest sub-string without repeating character
 
-package challenge;
+package challenges;
 
 import java.util.HashSet;
 import java.util.Set;
