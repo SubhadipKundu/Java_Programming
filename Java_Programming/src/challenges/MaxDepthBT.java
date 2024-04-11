@@ -6,15 +6,15 @@ package challenges;
 
 import generatedata.NodeTree;
 
-public class MaxDepth {
+public class MaxDepthBT {
 	
-	public int executeMaxDepth(NodeTree root) {
+	public int executeMaxDepthBT(NodeTree root) {
 		
 		if (root == null)
 			return 0;
 		
-		int leftDepth = executeMaxDepth(root.left);
-		int rightDepth = executeMaxDepth(root.right);
+		int leftDepth = executeMaxDepthBT(root.left);
+		int rightDepth = executeMaxDepthBT(root.right);
 		
 		return Math.max(leftDepth, rightDepth) + 1;
 		
