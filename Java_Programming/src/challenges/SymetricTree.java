@@ -2,7 +2,7 @@
 
 package challenges;
 
-import generatedata.NodeTree;
+import datastructures.structures.NodeTree;
 
 public class SymetricTree {
 	

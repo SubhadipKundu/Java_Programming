@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import generatedata.NodeTree;
+import datastructures.structures.NodeTree;
 
 public class InOrderTraversal {
 	

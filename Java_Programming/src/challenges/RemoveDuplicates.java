@@ -21,8 +21,8 @@
 
 package challenges;
 
+import algorithms.sorting.PrintSortedArray;
 import generatedata.ArrayInteger;
-import sorting.PrintSortedArray;
 
 public class RemoveDuplicates {
 	
