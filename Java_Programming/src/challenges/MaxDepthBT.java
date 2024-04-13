@@ -4,7 +4,7 @@ A binary tree's maximum depth is the number of nodes along the longest path from
 
 package challenges;
 
-import generatedata.NodeTree;
+import datastructures.structures.NodeTree;
 
 public class MaxDepthBT {
 	

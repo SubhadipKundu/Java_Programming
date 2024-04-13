@@ -1,6 +1,6 @@
 package challenges;
 
-import generatedata.ListNode;
+import datastructures.structures.ListNode;
 
 public class LinkedListCycle {
 	

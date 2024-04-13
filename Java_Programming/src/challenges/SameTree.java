@@ -4,7 +4,7 @@ Two binary trees are considered the same if they are structurally identical, and
 
 package challenges;
 
-import generatedata.NodeTree;
+import datastructures.structures.NodeTree;
 
 public class SameTree {
 	
